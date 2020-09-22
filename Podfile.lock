@@ -11,7 +11,7 @@ DEPENDENCIES:
   - OTAcceleratorCore (= 1.1.9)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - OpenTok
     - OTAcceleratorCore
     - OTKAnalytics
@@ -23,6 +23,6 @@ SPEC CHECKSUMS:
   OTKAnalytics: d959cb9037564ce382cf79f1e43d0bf03a9dcd60
   SVProgressHUD: db27c54e6e18bc903341661fc9feb55e04905cc4
 
-PODFILE CHECKSUM: 70e634c2d9486771a47c1f3e0ff7725aaff5f394
+PODFILE CHECKSUM: 44cd8a75fe067f8aa77fc34a70bb346e0c7274cc
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.9.3
