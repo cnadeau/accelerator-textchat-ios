@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   }
 
   s.static_framework = true
-  s.dependency 'OTAcceleratorCore'
+  s.dependency 'OTAcceleratorCore', '=1.1.11'
 
   s.subspec 'Core' do |s|
     s.source_files = 'OTTextChatAccelerator/Constant.h',
