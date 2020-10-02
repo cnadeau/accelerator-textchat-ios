@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/opentok/accelerator-textchat-ios", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/tokbox/'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
+  s.swift_version = "5.2"
 
   s.source_files = 'OTTextChatAccelerator/**/*'
 
@@ -21,8 +22,9 @@ Pod::Spec.new do |s|
   }
 
   s.static_framework = true
-  s.dependency 'OTAcceleratorCore', '=1.1.11'
+  s.dependency 'OTAcceleratorCore', '1.1.11'
 
+  
   s.subspec 'Core' do |s|
     s.source_files = 'OTTextChatAccelerator/Constant.h',
                         'OTTextChatAccelerator/OTTextChat.h',
